@@ -1,0 +1,15 @@
+{
+  "category": "pcb1",
+  "samples": [
+    {
+      "ground_truth": "normal",
+      "source": "data/raw/pcb1/Data/Images/Normal/0000.JPG",
+      "sample": "data/samples/pcb1_normal.JPG"
+    },
+    {
+      "ground_truth": "anomaly",
+      "source": "data/raw/pcb1/Data/Images/Anomaly/000.JPG",
+      "sample": "data/samples/pcb1_anomaly.JPG"
+    }
+  ]
+}
