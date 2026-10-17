@@ -1,0 +1,10 @@
+# Versiones funcionales observadas 2026-10-13; conservar wheel CUDA 12.8.
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+ultralytics==8.4.177
+openai==3.29.0
+pandas==3.0.6
+scikit-learn==1.9.1
+numpy==2.4.6
+Pillow==12.3.0
+matplotlib==3.11.2

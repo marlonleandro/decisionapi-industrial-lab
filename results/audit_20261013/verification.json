@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "validation: metrics independently match sklearn",
+    "test: metrics independently match sklearn",
+    "threshold boundary is >=, including exactly 0.20",
+    "duplicate test predictions rejected",
+    "audit: repeated execution rejected before inference/writes",
+    "freeze: repeated execution rejected before inference/writes",
+    "test: repeated execution rejected before inference/writes",
+    "frozen threshold obeys validation policy and ascending tie handling",
+    "all original artifact hashes unchanged",
+    "all documentation local links resolve",
+    "no API-key-like values in new text artifacts"
+  ],
+  "original_files_verified": 179,
+  "original_files_modified": 0,
+  "new_api_calls": 0,
+  "new_training_runs": 0,
+  "broken_links": [],
+  "key_pattern_hits": [],
+  "figure_visually_inspected": true
+}

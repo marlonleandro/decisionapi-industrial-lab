@@ -1,0 +1,10 @@
+{
+  "PROMPT_V1": {
+    "text": "Does this PCB show a visible manufacturing anomaly or defect? Look for observable abnormalities such as missing or misplaced components, surface damage, scratches, cracks, unusual spots, or other visible structural inconsistencies. Ignore ordinary lighting variation, shadows, reflections, perspective differences, and normal component variation.",
+    "sha256_utf8": "0b4d4d5cf2057261c4ca4f8622f682083a3018e74f02bf3dcccdbc635db8002f"
+  },
+  "PROMPT_V2": {
+    "text": "\n        Determine whether this HC-SR04 ultrasonic sensor module\n        contains any visible manufacturing anomaly or defect.\n\n        Expected configuration:\n        - Four connector pins labeled Vcc, Trig, Echo and Gnd.\n        - All four pins must be physically present.\n        - Pins should be straight and properly aligned.\n        - No visibly broken, bent or missing pins.\n        - No abnormal solder joints or damaged PCB traces.\n        - No missing or displaced components.\n        - No unusual physical damage or contamination.\n\n        Pay special attention to:\n        1. Missing connector pins.\n        2. Bent or misaligned pins.\n        3. Physical damage around solder joints.\n        4. Scratches or damage on the PCB.\n        5. Deformation of ultrasonic transducers.\n\n        Ignore normal lighting differences, shadows,\n        reflections and harmless cosmetic variation.\n\n        A visually evident deviation from the expected\n        configuration counts as a defect.\n\n        Do not infer hidden electrical defects from\n        visual appearance alone.\n        ",
+    "sha256_utf8": "392f25193bc3fb0e81dceaa9fdc05179fe8e17f6d194558062c389fc1a0210a5"
+  }
+}

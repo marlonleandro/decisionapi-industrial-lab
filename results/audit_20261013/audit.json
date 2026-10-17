@@ -1,0 +1,112 @@
+{
+  "timestamp_utc": "2026-10-13T16:20:41.070370+00:00",
+  "checks_passed": true,
+  "manifest_sha256": "fce4468a8bafcf8915f8bf656cd2ba437d214af2d958697fa9e914859c6a19d2",
+  "model_sha256": "31b2b128e312217b5c253f2910f57788536c4557f40431a5fcf76cda8703178d",
+  "split_counts": {
+    "train/normal": 200,
+    "test/anomaly": 30,
+    "train/anomaly": 40,
+    "validation/normal": 20,
+    "test/normal": 30,
+    "validation/anomaly": 20
+  },
+  "seed42_reproduced": true,
+  "cross_split_byte_duplicates": 0,
+  "yolo_copies_verified": 340,
+  "initial_smoke_overlap": [
+    {
+      "ground_truth": "normal",
+      "source": "data/raw/pcb1/Data/Images/Normal/0000.JPG",
+      "sample": "data/samples/pcb1_normal.JPG",
+      "split": null
+    },
+    {
+      "ground_truth": "anomaly",
+      "source": "data/raw/pcb1/Data/Images/Anomaly/000.JPG",
+      "sample": "data/samples/pcb1_anomaly.JPG",
+      "split": "validation"
+    }
+  ],
+  "api_metrics": {
+    "validation": {
+      "samples": 40,
+      "threshold": 0.2,
+      "tp": 19,
+      "tn": 20,
+      "fp": 0,
+      "fn": 1,
+      "accuracy": 0.975,
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1": 0.9743589743589743,
+      "fpr": 0.0,
+      "fnr": 0.05,
+      "accuracy_ci95_wilson": [
+        0.8711863103652591,
+        0.9955731684973186
+      ],
+      "recall_ci95_wilson": [
+        0.763868806553258,
+        0.9911185511992047
+      ],
+      "fpr_ci95_wilson": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    "test": {
+      "samples": 60,
+      "threshold": 0.2,
+      "tp": 23,
+      "tn": 26,
+      "fp": 4,
+      "fn": 7,
+      "accuracy": 0.8166666666666667,
+      "precision": 0.8518518518518519,
+      "recall": 0.7666666666666667,
+      "f1": 0.8070175438596491,
+      "fpr": 0.13333333333333333,
+      "fnr": 0.23333333333333334,
+      "accuracy_ci95_wilson": [
+        0.7008024625353194,
+        0.8944220311080237
+      ],
+      "recall_ci95_wilson": [
+        0.5907167384187784,
+        0.8820761185551049
+      ],
+      "fpr_ci95_wilson": [
+        0.053096554840547455,
+        0.296813266820363
+      ]
+    }
+  },
+  "historical_yolo_val": {
+    "samples": 40,
+    "threshold": 0.5,
+    "tp": 19,
+    "tn": 19,
+    "fp": 1,
+    "fn": 1,
+    "accuracy": 0.95,
+    "precision": 0.95,
+    "recall": 0.95,
+    "f1": 0.95,
+    "fpr": 0.05,
+    "fnr": 0.05,
+    "accuracy_ci95_wilson": [
+      0.8349612263085903,
+      0.9861793326138516
+    ],
+    "recall_ci95_wilson": [
+      0.763868806553258,
+      0.9911185511992047
+    ],
+    "fpr_ci95_wilson": [
+      0.008881448800795402,
+      0.23613119344674205
+    ]
+  },
+  "caveat": "Initial smoke samples were not excluded by the split generator. Test independence is assessed separately from this validation exposure."
+}

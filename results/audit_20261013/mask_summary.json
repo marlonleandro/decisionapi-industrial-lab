@@ -1,0 +1,30 @@
+{
+  "exploration": {
+    "anomalies": 10,
+    "area_fraction_min": 0.001201507042628538,
+    "area_fraction_median": 0.0019137577548792501,
+    "area_fraction_max": 0.05324706446201773,
+    "approx_crop_total_loss": 0
+  },
+  "train": {
+    "anomalies": 40,
+    "area_fraction_min": 0.0007655031019517001,
+    "area_fraction_median": 0.0020938173975557153,
+    "area_fraction_max": 0.12725856697819315,
+    "approx_crop_total_loss": 0
+  },
+  "validation": {
+    "anomalies": 20,
+    "area_fraction_min": 0.0009052906249167931,
+    "area_fraction_median": 0.0018545144713369012,
+    "area_fraction_max": 0.07893601725377426,
+    "approx_crop_total_loss": 0
+  },
+  "test": {
+    "anomalies": 30,
+    "area_fraction_min": 0.0009285885454109753,
+    "area_fraction_median": 0.002166373778523311,
+    "area_fraction_max": 0.07897662220092126,
+    "approx_crop_total_loss": 0
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "v1_validation",
+  "selection_policy": "maximize recall subject to FPR <= 0.10; tie-break F1",
+  "selection": {
+    "threshold": 0.2,
+    "fpr": 0.0,
+    "recall": 0.95,
+    "f1": 0.9743589743589743,
+    "tn": 20,
+    "fp": 0,
+    "fn": 1,
+    "tp": 19
+  },
+  "sample_count": 40
+}

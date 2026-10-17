@@ -1,0 +1,586 @@
+﻿ruta,tipo,bytes,estado_git,decision,inventario_sha_historico,motivo
+.env,archivo,179,ignorado,solo_local_conservar,no,Credencial necesaria para llamadas; nunca publicar ni eliminar como basura
+.env.example,archivo,32,seguido,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+.gitignore,archivo,829,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+LEEME-entrega.md,archivo,330,ignorado,eliminable_sin_impacto,no,Nota de entrega local sin dependencias de ejecucion
+README-comparacion.md,archivo,2101,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+README.md,archivo,2792,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+data/benchmark_pcb1.csv,archivo,1139,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+data/pcb1_splits.csv,archivo,21005,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+data/processed/.gitkeep,archivo,0,seguido,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+data/samples/pcb1_anomaly.JPG,archivo,255069,seguido,publicar_ejemplos,no,Ejemplos pequenos usados en documentacion y/o auditoria; ya seguidos por Git
+data/samples/pcb1_normal.JPG,archivo,260513,seguido,publicar_ejemplos,no,Ejemplos pequenos usados en documentacion y/o auditoria; ya seguidos por Git
+data/samples/samples.json,archivo,365,seguido,publicar_ejemplos,no,Ejemplos pequenos usados en documentacion y/o auditoria; ya seguidos por Git
+data/yolo_pcb1/test/anomaly/001.JPG,archivo,256140,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/002.JPG,archivo,248924,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/011.JPG,archivo,272807,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/013.JPG,archivo,255050,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/015.JPG,archivo,277362,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/017.JPG,archivo,283857,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/019.JPG,archivo,265241,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/023.JPG,archivo,267850,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/029.JPG,archivo,264521,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/030.JPG,archivo,273948,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/033.JPG,archivo,269872,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/039.JPG,archivo,276216,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/042.JPG,archivo,263268,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/044.JPG,archivo,249843,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/046.JPG,archivo,262373,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/048.JPG,archivo,288583,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/051.JPG,archivo,256140,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/053.JPG,archivo,253793,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/054.JPG,archivo,246623,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/055.JPG,archivo,244807,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/056.JPG,archivo,257615,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/060.JPG,archivo,252937,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/062.JPG,archivo,271150,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/063.JPG,archivo,273259,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/070.JPG,archivo,239179,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/071.JPG,archivo,231471,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/075.JPG,archivo,275295,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/080.JPG,archivo,266905,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/081.JPG,archivo,284341,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/anomaly/094.JPG,archivo,266685,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0034.JPG,archivo,271134,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0050.JPG,archivo,265900,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0178.JPG,archivo,273553,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0188.JPG,archivo,260614,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0236.JPG,archivo,259287,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0268.JPG,archivo,258681,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0278.JPG,archivo,269505,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0332.JPG,archivo,280891,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0368.JPG,archivo,280208,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0391.JPG,archivo,258587,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0400.JPG,archivo,276559,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0403.JPG,archivo,267732,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0410.JPG,archivo,261112,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0502.JPG,archivo,262093,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0508.JPG,archivo,260098,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0517.JPG,archivo,274086,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0592.JPG,archivo,269286,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0613.JPG,archivo,281537,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0670.JPG,archivo,276600,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0684.JPG,archivo,285671,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0724.JPG,archivo,277240,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0734.JPG,archivo,264983,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0776.JPG,archivo,285786,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0811.JPG,archivo,276938,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0895.JPG,archivo,271063,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0899.JPG,archivo,252500,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0949.JPG,archivo,258042,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0953.JPG,archivo,263062,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0992.JPG,archivo,283350,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/test/normal/0999.JPG,archivo,276758,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train.cache,archivo,18402,ignorado,eliminable_regenerable,no,Cache de Python/Ultralytics; se reconstruye
+data/yolo_pcb1/train/anomaly/005.JPG,archivo,270643,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/006.JPG,archivo,254004,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/008.JPG,archivo,244250,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/010.JPG,archivo,268073,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/016.JPG,archivo,277733,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/020.JPG,archivo,264853,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/021.JPG,archivo,272171,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/022.JPG,archivo,233230,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/024.JPG,archivo,249793,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/028.JPG,archivo,240321,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/031.JPG,archivo,259461,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/032.JPG,archivo,252552,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/034.JPG,archivo,267548,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/035.JPG,archivo,272816,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/037.JPG,archivo,280214,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/038.JPG,archivo,281860,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/040.JPG,archivo,262376,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/041.JPG,archivo,251839,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/043.JPG,archivo,220506,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/049.JPG,archivo,262222,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/057.JPG,archivo,249130,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/061.JPG,archivo,250307,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/064.JPG,archivo,272282,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/065.JPG,archivo,257072,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/066.JPG,archivo,269255,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/067.JPG,archivo,269191,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/069.JPG,archivo,247721,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/073.JPG,archivo,264004,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/076.JPG,archivo,264142,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/077.JPG,archivo,266707,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/078.JPG,archivo,261328,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/079.JPG,archivo,274996,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/082.JPG,archivo,250395,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/083.JPG,archivo,263170,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/086.JPG,archivo,214973,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/087.JPG,archivo,257354,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/090.JPG,archivo,261389,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/091.JPG,archivo,253731,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/092.JPG,archivo,266266,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/anomaly/096.JPG,archivo,247426,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0001.JPG,archivo,271930,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0004.JPG,archivo,277847,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0005.JPG,archivo,284472,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0016.JPG,archivo,273165,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0017.JPG,archivo,267172,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0018.JPG,archivo,266976,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0020.JPG,archivo,281984,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0024.JPG,archivo,274655,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0027.JPG,archivo,279549,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0029.JPG,archivo,292601,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0030.JPG,archivo,257028,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0035.JPG,archivo,265730,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0039.JPG,archivo,257871,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0051.JPG,archivo,275551,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0062.JPG,archivo,260567,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0065.JPG,archivo,259939,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0067.JPG,archivo,262491,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0080.JPG,archivo,281777,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0086.JPG,archivo,274125,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0089.JPG,archivo,280168,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0093.JPG,archivo,275803,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0122.JPG,archivo,281555,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0124.JPG,archivo,249979,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0132.JPG,archivo,229669,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0139.JPG,archivo,273543,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0141.JPG,archivo,276132,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0148.JPG,archivo,239804,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0151.JPG,archivo,278820,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0152.JPG,archivo,210731,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0153.JPG,archivo,260286,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0154.JPG,archivo,221211,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0161.JPG,archivo,269470,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0177.JPG,archivo,270897,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0182.JPG,archivo,282325,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0189.JPG,archivo,264564,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0192.JPG,archivo,272196,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0193.JPG,archivo,277288,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0195.JPG,archivo,259647,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0197.JPG,archivo,266638,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0199.JPG,archivo,268797,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0202.JPG,archivo,258714,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0204.JPG,archivo,256800,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0206.JPG,archivo,268432,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0214.JPG,archivo,267171,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0215.JPG,archivo,267064,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0217.JPG,archivo,285583,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0225.JPG,archivo,272459,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0234.JPG,archivo,277456,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0246.JPG,archivo,265355,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0253.JPG,archivo,269544,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0257.JPG,archivo,282404,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0262.JPG,archivo,266063,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0270.JPG,archivo,266417,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0289.JPG,archivo,263600,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0297.JPG,archivo,263957,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0300.JPG,archivo,279992,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0305.JPG,archivo,268297,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0306.JPG,archivo,262752,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0308.JPG,archivo,275650,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0309.JPG,archivo,256507,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0315.JPG,archivo,278728,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0318.JPG,archivo,258527,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0323.JPG,archivo,262009,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0325.JPG,archivo,276004,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0334.JPG,archivo,251095,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0336.JPG,archivo,258023,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0337.JPG,archivo,256604,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0341.JPG,archivo,264611,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0349.JPG,archivo,274383,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0361.JPG,archivo,275566,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0362.JPG,archivo,256258,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0365.JPG,archivo,264751,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0366.JPG,archivo,269140,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0367.JPG,archivo,276357,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0371.JPG,archivo,254849,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0372.JPG,archivo,259861,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0381.JPG,archivo,268823,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0382.JPG,archivo,274543,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0387.JPG,archivo,284716,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0392.JPG,archivo,259354,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0393.JPG,archivo,264635,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0407.JPG,archivo,254770,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0411.JPG,archivo,264784,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0413.JPG,archivo,260760,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0416.JPG,archivo,271995,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0422.JPG,archivo,280567,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0424.JPG,archivo,253855,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0426.JPG,archivo,255248,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0431.JPG,archivo,276377,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0433.JPG,archivo,258534,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0442.JPG,archivo,260702,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0450.JPG,archivo,259228,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0451.JPG,archivo,274555,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0458.JPG,archivo,258990,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0462.JPG,archivo,267144,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0463.JPG,archivo,267463,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0464.JPG,archivo,268420,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0468.JPG,archivo,272255,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0478.JPG,archivo,260061,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0479.JPG,archivo,266627,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0482.JPG,archivo,274224,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0483.JPG,archivo,279781,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0490.JPG,archivo,278334,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0492.JPG,archivo,258127,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0496.JPG,archivo,262449,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0497.JPG,archivo,267585,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0509.JPG,archivo,251361,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0514.JPG,archivo,268494,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0515.JPG,archivo,271048,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0522.JPG,archivo,280969,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0532.JPG,archivo,275940,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0538.JPG,archivo,269847,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0541.JPG,archivo,254678,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0549.JPG,archivo,270252,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0554.JPG,archivo,262070,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0561.JPG,archivo,256721,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0564.JPG,archivo,270993,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0566.JPG,archivo,268912,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0567.JPG,archivo,255801,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0568.JPG,archivo,272999,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0575.JPG,archivo,257193,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0580.JPG,archivo,270646,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0582.JPG,archivo,270534,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0584.JPG,archivo,261030,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0586.JPG,archivo,273721,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0589.JPG,archivo,257324,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0594.JPG,archivo,268295,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0602.JPG,archivo,257185,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0603.JPG,archivo,255642,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0607.JPG,archivo,259424,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0608.JPG,archivo,269659,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0618.JPG,archivo,268403,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0621.JPG,archivo,286238,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0624.JPG,archivo,278519,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0629.JPG,archivo,266415,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0633.JPG,archivo,279543,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0634.JPG,archivo,279028,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0636.JPG,archivo,271251,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0639.JPG,archivo,281601,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0641.JPG,archivo,288134,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0642.JPG,archivo,281361,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0655.JPG,archivo,268401,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0672.JPG,archivo,280042,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0686.JPG,archivo,288889,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0687.JPG,archivo,268487,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0688.JPG,archivo,269194,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0692.JPG,archivo,279567,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0701.JPG,archivo,279749,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0705.JPG,archivo,274074,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0708.JPG,archivo,287240,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0725.JPG,archivo,277493,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0728.JPG,archivo,272417,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0732.JPG,archivo,288689,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0748.JPG,archivo,262142,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0750.JPG,archivo,265758,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0752.JPG,archivo,279921,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0753.JPG,archivo,283089,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0757.JPG,archivo,263585,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0767.JPG,archivo,283389,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0773.JPG,archivo,269177,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0779.JPG,archivo,267330,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0780.JPG,archivo,270332,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0784.JPG,archivo,275335,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0793.JPG,archivo,264159,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0806.JPG,archivo,276912,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0810.JPG,archivo,276173,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0814.JPG,archivo,272853,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0819.JPG,archivo,282003,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0820.JPG,archivo,289318,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0823.JPG,archivo,266939,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0829.JPG,archivo,244723,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0830.JPG,archivo,283399,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0840.JPG,archivo,274208,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0843.JPG,archivo,258829,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0844.JPG,archivo,278523,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0846.JPG,archivo,271258,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0847.JPG,archivo,267289,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0855.JPG,archivo,268772,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0868.JPG,archivo,255658,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0871.JPG,archivo,270035,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0879.JPG,archivo,269144,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0880.JPG,archivo,289403,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0881.JPG,archivo,290862,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0883.JPG,archivo,256617,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0894.JPG,archivo,267900,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0896.JPG,archivo,285111,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0910.JPG,archivo,273270,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0913.JPG,archivo,281089,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0921.JPG,archivo,267040,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0924.JPG,archivo,273766,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0932.JPG,archivo,260792,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0943.JPG,archivo,286774,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0946.JPG,archivo,250536,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0965.JPG,archivo,255008,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0969.JPG,archivo,270746,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0973.JPG,archivo,280234,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0979.JPG,archivo,271655,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0980.JPG,archivo,281128,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0985.JPG,archivo,263470,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/train/normal/0991.JPG,archivo,274401,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val.cache,archivo,3322,ignorado,eliminable_regenerable,no,Cache de Python/Ultralytics; se reconstruye
+data/yolo_pcb1/val/anomaly/000.JPG,archivo,255069,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/003.JPG,archivo,259638,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/007.JPG,archivo,264730,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/009.JPG,archivo,258296,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/014.JPG,archivo,281789,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/025.JPG,archivo,233206,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/026.JPG,archivo,266838,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/027.JPG,archivo,279404,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/045.JPG,archivo,238828,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/050.JPG,archivo,228496,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/052.JPG,archivo,232097,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/068.JPG,archivo,259733,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/072.JPG,archivo,264749,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/074.JPG,archivo,222455,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/084.JPG,archivo,264136,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/088.JPG,archivo,265808,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/093.JPG,archivo,266597,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/095.JPG,archivo,275525,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/098.JPG,archivo,274046,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/anomaly/099.JPG,archivo,278573,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0054.JPG,archivo,284188,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0057.JPG,archivo,276631,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0077.JPG,archivo,269746,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0116.JPG,archivo,257442,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0181.JPG,archivo,267565,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0296.JPG,archivo,265047,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0340.JPG,archivo,263825,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0343.JPG,archivo,278567,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0435.JPG,archivo,261962,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0454.JPG,archivo,264810,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0481.JPG,archivo,270845,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0531.JPG,archivo,270467,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0760.JPG,archivo,272435,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0795.JPG,archivo,272453,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0805.JPG,archivo,275158,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0817.JPG,archivo,270794,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0852.JPG,archivo,256537,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0914.JPG,archivo,289831,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0915.JPG,archivo,294185,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+data/yolo_pcb1/val/normal/0938.JPG,archivo,279054,ignorado,eliminable_regenerable,no,Copia verificada contra data/raw; recrear con prepare_yolo_dataset.py antes de inferencia/auditoria
+docs/README.md,archivo,412,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+docs/arquitectura.md,archivo,2369,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+docs/dataset-metodologia.md,archivo,3618,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+docs/entorno-entrenamiento.md,archivo,3115,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+docs/limitaciones-proximos-pasos.md,archivo,4172,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+docs/procedencia.md,archivo,3267,nuevo_publicable,conservar_historico,no,Historico/referencias existentes; mover o retirar requiere actualizar enlaces y preservar procedencia
+docs/prompts.md,archivo,3190,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+docs/reproduccion.md,archivo,3691,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+docs/sprint-1.md,archivo,1120,seguido,conservar_historico,si,Historico/referencias existentes; mover o retirar requiere actualizar enlaces y preservar procedencia
+docs/sprint-4.md,archivo,2182,nuevo_publicable,conservar_historico,si,Historico/referencias existentes; mover o retirar requiere actualizar enlaces y preservar procedencia
+notebooks/laboratorio-decisions-api-vs-yolo-friendly.ipynb,archivo,504564,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+notebooks/laboratorio-decisions-api-vs-yolo.ipynb,archivo,5016959,nuevo_publicable,publicar_opcional_recomendado,no,Anexo tecnico enlazado; optimizar salidas solo en una copia y conservar el original
+reports/comparacion-20261013.md,archivo,8751,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+requirements-yolo-observed.txt,archivo,247,nuevo_publicable,publicar_conservar,no,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+requirements.txt,archivo,212,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/audit_20261013/audit.json,archivo,2870,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/comparison_test.json,archivo,1776,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/dataset_hashes.csv,archivo,49180,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/environment.json,archivo,518,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/environment_test.json,archivo,518,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/error_inventory.csv,archivo,3069,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/historical_metrics_recomputed.json,archivo,1682,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/mask_statistics.csv,archivo,22383,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/mask_summary.json,archivo,903,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/original_hashes.json,archivo,21432,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/packages_snapshot.json,archivo,1555,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/paired_test.csv,archivo,6164,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/prompt_snapshot.json,archivo,1722,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/test_false_negative_masks.png,archivo,3115097,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/verification.json,archivo,859,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/yolo_predictions_test.csv,archivo,6025,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/yolo_predictions_validation.csv,archivo,4284,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/yolo_threshold_frozen.json,archivo,1221,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/audit_20261013/yolo_threshold_grid_validation.json,archivo,9899,nuevo_publicable,publicar_evidencia,no,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/false_negatives/FN_01_047.JPG,archivo,278754,seguido,publicar_ejemplos,si,Ejemplos pequenos usados en documentacion y/o auditoria; ya seguidos por Git
+results/false_negatives/FN_02_058.JPG,archivo,277976,seguido,publicar_ejemplos,si,Ejemplos pequenos usados en documentacion y/o auditoria; ya seguidos por Git
+results/false_negatives/FN_03_097.JPG,archivo,272557,seguido,publicar_ejemplos,si,Ejemplos pequenos usados en documentacion y/o auditoria; ya seguidos por Git
+results/false_negatives/FN_04_012.JPG,archivo,256770,seguido,publicar_ejemplos,si,Ejemplos pequenos usados en documentacion y/o auditoria; ya seguidos por Git
+results/final_test_metrics.json,archivo,387,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/predictions.csv,archivo,1681,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/predictions_v2.csv,archivo,1698,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/prompt_comparison.csv,archivo,2816,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/raw_v2/001_058.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/002_0250.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/003_018.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/004_0281.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/005_0104.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/006_097.json,archivo,416,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/007_059.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/008_012.json,archivo,416,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/009_0228.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/010_089.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/011_085.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/012_004.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/013_0114.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/014_036.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/015_0025.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/016_047.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/017_0142.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/018_0754.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/019_0654.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/raw_v2/020_0759.json,archivo,417,seguido,publicar_evidencia,si,Evidencia auditada o respuesta historica; no eliminar por ser una salida generada
+results/runs/v1_test/checkpoints/00066f7fe7a36176.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/09bd47a675aaace2.json,archivo,804,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/0d4a998499e491fb.json,archivo,804,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/1e1de8cdf047c95e.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/1e20e9dc33271d0f.json,archivo,804,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/1eb736957fb7f8dd.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/25efc7e8c8e8cf1c.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/262b72a2bb97533c.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/29b33b44f0e4d2be.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/2f4aad6bad3b1bd7.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/316ed31f551bb873.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/3c42f1211865b242.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/3d4f5d4b0c4d8af2.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/4038de1a7a1872b2.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/448bc09136256433.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/457d24fab1ef5d67.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/49148498d4ba40fa.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/4a8851e9c855aca3.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/4d489ee96abc07e7.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/4f60d42e43ee7235.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/4f74737ec7fa564d.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/54c4306bec3ece2b.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/5886e3bfac084fd0.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/6893f6c000b6f004.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/729cda812a8fe3a6.json,archivo,803,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/77b28204d0eb588d.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/78180c5f5700c0c3.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/7fe8faad63b605dd.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/84769c127464b4ed.json,archivo,804,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/84d31f12bf9351a2.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/85830714a44c67bd.json,archivo,804,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/87d11fc0bbf9b1b9.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/908e94110341eb90.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/92e91efdbb1e0efb.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/976a1d2402ad1deb.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/9d39d2937fd99f34.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/a08d3523b357247c.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/a13fadff5904b743.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/a64089054aef8aa1.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/a8565ab72fc88f23.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/af980d4d99f9129f.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/b1c39ae0a369f54a.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/bb822db7502a7fce.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/bd5cd5cf920247bd.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/c0f2302c950f0464.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/c298dcd02526b9ed.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/c32f5d7c87c974af.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/c5a49ed12a6b5eef.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/ce8267d4c2560363.json,archivo,804,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/d310bbf65f2ca984.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/d32c99f53a82a17d.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/d446e25f271b3eed.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/d6ed0f3015009a5d.json,archivo,803,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/e156118d494718c9.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/e9b90fc2bbf3802e.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/eb5b856abbc51414.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/ec8c7d6bee641e28.json,archivo,806,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/f81a2f7d91d53f3d.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/fa571d8ea8133ae1.json,archivo,805,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/checkpoints/fede671a3e497fc4.json,archivo,807,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_test/predictions.csv,archivo,7230,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/083de74ce070fbe1.json,archivo,810,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/08e44d39a19381e5.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/0ec911295f6cb1b6.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/101ca06974b8d838.json,archivo,810,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/14d38e6d700dec0c.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/15c82a35bfb2e27d.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/2a899489ce7e507d.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/375c53c6d8718212.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/38622f1326826bd2.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/390312288001bd3d.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/3cf2171c7b44b0a2.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/4aea80295f3d22bb.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/528a92841f12a935.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/55f682f6a20e0c16.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/5ac8aacf2ae0e567.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/62ce15446f12ea01.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/639809c297ad51f5.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/69dbfeaacf3e9893.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/6cec670cc2757a39.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/6f41bdb2ad0d448b.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/7426d6375344f26c.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/74466ff8a8908fe3.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/770518cddf66e214.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/77d81299d6beaf99.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/7cbea9889561e8a5.json,archivo,810,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/812fa1735ee43752.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/844594654069ac06.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/8f49f15eef448327.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/a1c0edcde7198471.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/a95510c91a075c44.json,archivo,813,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/aeff4689fc4d4a35.json,archivo,813,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/b994022d7fd9ffd0.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/b99476a6374b7b59.json,archivo,809,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/c0b4849f54e12d18.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/cb108b2cc352fdc8.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/defd335a9ff5495d.json,archivo,812,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/ea2f0e5f7918280f.json,archivo,813,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/edacc0644d6ee400.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/f4ac6fa64bb6f3ec.json,archivo,811,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/checkpoints/f813c7788b65f84e.json,archivo,813,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/runs/v1_validation/predictions.csv,archivo,5077,nuevo_publicable,publicar_evidencia,si,Predicciones y respuestas por imagen; auditoria y cache de llamadas con coste
+results/selected_threshold.json,archivo,308,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/threshold_analysis.csv,archivo,978,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/threshold_analysis_v2.csv,archivo,1162,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/args.yaml,archivo,1862,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/confusion_matrix.png,archivo,82128,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/confusion_matrix_normalized.png,archivo,87801,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/experiment.json,archivo,390,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/metrics_val.json,archivo,277,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/predictions_val.csv,archivo,2127,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/results.csv,archivo,1513,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/results.png,archivo,144034,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+results/yolo/pcb1_cls_v1/train_batch0.jpg,archivo,372810,ignorado,archivar_opcional,si,"Mosaico diagnostico; no se usa para metricas ni inferencia, pero esta inventariado en hashes historicos"
+results/yolo/pcb1_cls_v1/train_batch1.jpg,archivo,349538,ignorado,archivar_opcional,si,"Mosaico diagnostico; no se usa para metricas ni inferencia, pero esta inventariado en hashes historicos"
+results/yolo/pcb1_cls_v1/train_batch2.jpg,archivo,343189,ignorado,archivar_opcional,si,"Mosaico diagnostico; no se usa para metricas ni inferencia, pero esta inventariado en hashes historicos"
+results/yolo/pcb1_cls_v1/val_batch0_labels.jpg,archivo,353459,ignorado,archivar_opcional,si,"Mosaico diagnostico; no se usa para metricas ni inferencia, pero esta inventariado en hashes historicos"
+results/yolo/pcb1_cls_v1/val_batch0_pred.jpg,archivo,355490,ignorado,archivar_opcional,si,"Mosaico diagnostico; no se usa para metricas ni inferencia, pero esta inventariado en hashes historicos"
+results/yolo/pcb1_cls_v1/val_batch1_labels.jpg,archivo,177659,ignorado,archivar_opcional,si,"Mosaico diagnostico; no se usa para metricas ni inferencia, pero esta inventariado en hashes historicos"
+results/yolo/pcb1_cls_v1/val_batch1_pred.jpg,archivo,178202,ignorado,archivar_opcional,si,"Mosaico diagnostico; no se usa para metricas ni inferencia, pero esta inventariado en hashes historicos"
+results/yolo/pcb1_cls_v1/weights/best.pt,archivo,3186690,nuevo_publicable,publicar_esencial,si,"Peso entrenado exacto del laboratorio; necesario para inferencia reproducible, no sustituir por last.pt"
+results/yolo/pcb1_cls_v1/weights/last.pt,archivo,3186690,ignorado,archivar_opcional,si,Ultimo checkpoint distinto de best.pt; necesario solo para conservar/reanudar ese estado
+scripts/__pycache__/offline_audit_compare.cpython-311.pyc,archivo,35300,ignorado,eliminable_regenerable,no,Cache de Python/Ultralytics; se reconstruye
+scripts/analyze_thresholds.py,archivo,2090,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/build_friendly_notebook.py,archivo,38239,nuevo_publicable,publicar_mantenibilidad,no,Fuente regenerable del notebook friendly; no hace inferencia
+scripts/calculate_metrics.py,archivo,2365,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/compare_prompts.py,archivo,1196,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/document_verified_state.py,archivo,39391,nuevo_publicable,conservar_historico,no,Historico/referencias existentes; mover o retirar requiere actualizar enlaces y preservar procedencia
+scripts/download_visa.py,archivo,1642,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/evaluate_final_test.py,archivo,2377,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/evaluate_yolo.py,archivo,4096,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/export_false_negatives.py,archivo,869,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/inspect_one.py,archivo,1696,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/offline_audit_compare.py,archivo,14774,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/prepare_benchmark.py,archivo,2885,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/prepare_dataset_splits.py,archivo,3385,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/prepare_pcb1.py,archivo,2125,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/prepare_yolo_dataset.py,archivo,1290,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/run_benchmark.py,archivo,5963,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/run_benchmark_v4.py,archivo,4797,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/train_yolo.py,archivo,2087,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+scripts/validate_and_freeze.py,archivo,1784,nuevo_publicable,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+src/__init__.py,archivo,0,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+src/__pycache__/__init__.cpython-311.pyc,archivo,156,ignorado,eliminable_regenerable,no,Cache de Python/Ultralytics; se reconstruye
+src/decisions/__init__.py,archivo,0,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+src/decisions/__pycache__/__init__.cpython-311.pyc,archivo,166,ignorado,eliminable_regenerable,no,Cache de Python/Ultralytics; se reconstruye
+src/decisions/__pycache__/client.cpython-311.pyc,archivo,3796,ignorado,eliminable_regenerable,no,Cache de Python/Ultralytics; se reconstruye
+src/decisions/client.py,archivo,3443,seguido,publicar_conservar,si,"Codigo, documentacion, manifiesto, configuracion o resultado referenciado"
+weights/yolo26n.pt,archivo,5544453,ignorado,solo_local_descargable,si,Peso base o auxiliar descargable; archivar si se exige conservar el hash historico
+yolo11n-cls.pt,archivo,5790624,ignorado,solo_local_descargable,si,Peso base o auxiliar descargable; archivar si se exige conservar el hash historico
+.venv/,grupo,5387286096,ignorado,solo_local_conservar,no,"47585 archivos; entorno funcional de 5137.72 MiB, recreable pero necesario para trabajar hoy"
+data/raw/.gitkeep,archivo,0,seguido,publicar_conservar,no,Marcador versionado para conservar la estructura vacia de datos originales
+data/raw/.visa_extracted,archivo,2,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/candle/,grupo,128313037,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/capsules/,grupo,172009873,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/cashew/,grupo,183496372,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/chewinggum/,grupo,84218085,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/fryum/,grupo,84679197,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/LICENSE-DATASET,archivo,18656,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/macaroni1/,grupo,128012067,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/macaroni2/,grupo,121327680,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/pcb1/,grupo,296989825,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/pcb2/,grupo,273845390,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/pcb3/,grupo,154375398,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/pcb4/,grupo,235221695,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/pipe_fryum/,grupo,56080032,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/split_csv/,grupo,1972326,ignorado,solo_local_datos,no,Originales necesarios para nuevas inferencias/diagnosticos; no publicar el dataset
+data/raw/VisA_20220922.tar,archivo,1929840640,ignorado,eliminable_condicionado,no,Archivo descargable de 1840.44 MiB; eliminar solo tras verificar extraccion/respaldo; no se verifico todo el TAR contra extraccion
+scr/,directorio_vacio,0,no_se_versiona,eliminable_sin_impacto,no,Carpeta vacia sin codigo; no confundir con src/

@@ -1,9 +1,39 @@
+# Entorno local, credenciales y caches regenerables
 .venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+*.cache
 .env
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-results/raw/*.json
+.env.*
+!.env.example
+
+# VisA original y copias preparadas para YOLO: se obtienen con los scripts
+/data/raw/*
+/data/processed/*
+!/data/raw/.gitkeep
+!/data/processed/.gitkeep
+/data/yolo_pcb1/
+
+# Pesos descargables y auxiliares; conservar best.pt del experimento publicado
+/*.pt
+/weights/
+/results/yolo/**/weights/last.pt
+
+# Mosaicos de depuracion generados durante el entrenamiento
+/results/yolo/**/train_batch*.jpg
+/results/yolo/**/val_batch*.jpg
+
+# Salidas crudas de pruebas individuales (no los checkpoints del benchmark)
+/results/raw/*.json
+
+# Nota de entrega de la copia local; no forma parte del laboratorio
+/LEEME-entrega.md
+
+# Archivos del sistema/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo

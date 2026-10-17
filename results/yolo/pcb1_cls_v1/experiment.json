@@ -1,0 +1,12 @@
+{
+  "model": "yolo11n-cls.pt",
+  "dataset": "VisA pcb1",
+  "epochs_max": 50,
+  "imgsz": 320,
+  "batch": 16,
+  "seed": 42,
+  "gpu": "NVIDIA GeForce RTX 5050 Laptop GPU",
+  "training_seconds": 68.54,
+  "best_model": "D:\\Proyectos\\IA\\Lab\\DecisionAPI\\results\\yolo\\pcb1_cls_v1\\weights\\best.pt",
+  "run_dir": "D:\\Proyectos\\IA\\Lab\\DecisionAPI\\results\\yolo\\pcb1_cls_v1"
+}

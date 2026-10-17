@@ -1,0 +1,68 @@
+{
+  "timestamp_utc": "2026-10-13T16:21:09.187124+00:00",
+  "test_independent_of_training": true,
+  "yolo": {
+    "samples": 60,
+    "threshold": 0.5,
+    "tp": 29,
+    "tn": 27,
+    "fp": 3,
+    "fn": 1,
+    "accuracy": 0.9333333333333333,
+    "precision": 0.90625,
+    "recall": 0.9666666666666667,
+    "f1": 0.9354838709677419,
+    "fpr": 0.1,
+    "fnr": 0.03333333333333333,
+    "accuracy_ci95_wilson": [
+      0.8407464268680283,
+      0.9737713012754938
+    ],
+    "recall_ci95_wilson": [
+      0.8332960900859082,
+      0.9940914096183874
+    ],
+    "fpr_ci95_wilson": [
+      0.03459988874733419,
+      0.25621082579184085
+    ]
+  },
+  "decisions_api": {
+    "samples": 60,
+    "threshold": 0.2,
+    "tp": 23,
+    "tn": 26,
+    "fp": 4,
+    "fn": 7,
+    "accuracy": 0.8166666666666667,
+    "precision": 0.8518518518518519,
+    "recall": 0.7666666666666667,
+    "f1": 0.8070175438596491,
+    "fpr": 0.13333333333333333,
+    "fnr": 0.23333333333333334,
+    "accuracy_ci95_wilson": [
+      0.7008024625353194,
+      0.8944220311080237
+    ],
+    "recall_ci95_wilson": [
+      0.5907167384187784,
+      0.8820761185551049
+    ],
+    "fpr_ci95_wilson": [
+      0.053096554840547455,
+      0.296813266820363
+    ]
+  },
+  "paired_discordance": {
+    "yolo_only_correct": 8,
+    "api_only_correct": 1,
+    "mcnemar_exact_two_sided_p": 0.0390625
+  },
+  "warning": "Small balanced local split; test was previously inspected for API, YOLO threshold selected on validation only. No production or causal superiority claim.",
+  "latency": {
+    "yolo_mean_ms": 27.338871664445225,
+    "yolo_excluding_first_mean_ms": 19.614806775619293,
+    "api_historical_mean_ms": 1062.1263333333332,
+    "comparable": false
+  }
+}
