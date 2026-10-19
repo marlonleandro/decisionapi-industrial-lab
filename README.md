@@ -3,9 +3,7 @@
 Laboratorio reproducible para evaluar **OpenAI Decisions API** sobre imágenes industriales
 del dataset **VisA (Visual Anomaly)**, comenzando con la categoría `pcb1`.
 
-## Sprint 1
-
-Objetivo:
+## Objetivo:
 
 1. Preparar el entorno Python.
 2. Descargar el dataset VisA desde AWS Open Data.
@@ -120,7 +118,6 @@ Visual Anomaly (VisA), Amazon Science / AWS Open Data.
 - `pcb1` contiene 1,004 imágenes normales y 100 anómalas.
 - Licencia del dataset: CC BY 4.0.
 
-## Próximo sprint
+## Créditos
 
-Automatizar varias imágenes, registrar latencia/resultados y comenzar el benchmark
-contra el ground truth.
+Elaborado por Marlon Leandro.

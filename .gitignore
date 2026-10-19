@@ -29,9 +29,6 @@ __pycache__/
 # Salidas crudas de pruebas individuales (no los checkpoints del benchmark)
 /results/raw/*.json
 
-# Nota de entrega de la copia local; no forma parte del laboratorio
-/LEEME-entrega.md
-
 # Archivos del sistema/editor
 .DS_Store
 Thumbs.db
