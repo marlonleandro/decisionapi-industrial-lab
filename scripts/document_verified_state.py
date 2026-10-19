@@ -92,13 +92,13 @@ Se auditó el repositorio, se reprodujo exactamente la validación YOLO y se con
 
 ## Documentación
 
-- [Arquitectura y alcance](docs/continuacion-20261013/arquitectura.md)
-- [Dataset, particiones y metodología](docs/continuacion-20261013/dataset-metodologia.md)
-- [Prompts V1/V2 exactos](docs/continuacion-20261013/prompts.md)
-- [Entorno RTX 5050 y entrenamiento](docs/continuacion-20261013/entorno-entrenamiento.md)
-- [Reproducción sin nuevas llamadas a la API](docs/continuacion-20261013/reproduccion.md)
-- [Limitaciones y próximos pasos](docs/continuacion-20261013/limitaciones-proximos-pasos.md)
-- [Procedencia y alcance del chat recuperado](docs/continuacion-20261013/procedencia.md)
+- [Arquitectura y alcance](docs/arquitectura.md)
+- [Dataset, particiones y metodología](docs/dataset-metodologia.md)
+- [Prompts V1/V2 exactos](docs/prompts.md)
+- [Entorno RTX 5050 y entrenamiento](docs/entorno-entrenamiento.md)
+- [Reproducción sin nuevas llamadas a la API](docs/reproduccion.md)
+- [Limitaciones y próximos pasos](docs/limitaciones-proximos-pasos.md)
+- [Procedencia y alcance del chat recuperado](docs/procedencia.md)
 - [Reporte completo con errores y máscaras](reports/comparacion-20261013.md)
 - [Evidencia estructurada](results/audit_20261013/audit.json)
 

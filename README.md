@@ -100,8 +100,6 @@ desde la raíz del proyecto o desde `notebooks/`. La primera celda localiza la r
 por el árbol de directorios. Las comprobaciones deben reproducir TP=29, TN=27, FP=3, FN=1
 para YOLO y TP=23, TN=26, FP=4, FN=7 para la API.
 
-La versión divulgativa se regenera con
-[`scripts/build_friendly_notebook.py`](scripts/build_friendly_notebook.py).
 
 ### Ruta B — Repetir inferencia o entrenamiento
 
